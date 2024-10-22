@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <title>Snitko CV</title>
+</head>
+<body>
+    <div id="container">
+        <div class="block" id="bar-side">
+            <header><h2>Links :)</h2></header>
+            <div id="links">
+                <div><a href="#" onclick="get_content('about')" id="about">Who? Where from?</a></div>
+                <div><a href="#" onclick="get_content('skills')" id="skills">Skills</a></div>
+                <div><a href="#" onclick="get_content('contacts')" id="contacts">My contacts</a></div>
+            </div>
+        </div>
+        <div class="block" id="content">
+            <header id="main-header"><h1>Ivan Snitko's CV</h1></header>
+            <p>Click links on the side-bar to see the content</p>
+            <div id="out"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
